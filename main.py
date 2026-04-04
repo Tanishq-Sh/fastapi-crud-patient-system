@@ -22,7 +22,7 @@ def about():
         'message': "A fully functional API to manage your patient records"
     }
     
-@app.get("/view")
+@app.get("/view") 
 def view():
     data = load_data()
     return data

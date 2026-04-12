@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+requests
+pandas
+scikit-learn==1.6.1
+streamlit
